@@ -104,7 +104,7 @@ Todo type: source|comparison|synthesis
 
 **Format:**
 ```
-{operation} | {description}
+[{operation}] {description}
 
 {Change log details}
 
@@ -122,14 +122,14 @@ Human Reviewer: {name}
 - `{description}`: brief description
 
 **Examples:**
-- `ingest | raw/20230101.md`
-- `answer | what-is-machine-learning`
-- `lint | check for contradictions`
-- `update | AGENTS.md - add commit format`
+- `[ingest] raw/20230101.md`
+- `[query] what-is-machine-learning`
+- `[lint] check for contradictions`
+- `[update] AGENTS.md - add commit format`
 
 **Full Commit Example:**
 ```
-ingest | raw/20230101.md
+[ingest] raw/20230101.md
 
 Add summary page for 20230101.md
 - Created wiki/summary/20230101.md

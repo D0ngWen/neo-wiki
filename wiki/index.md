@@ -8,7 +8,7 @@ A catalog of all pages in this wiki, organized by category.
 
 ## Summary
 
-- [llm-wiki](summary/llm-wiki.md) - LLM Wiki 模式介绍：使用 LLM 增量构建和维护个人知识库
+- [llm-wiki.md](summary/llm-wiki.md) - raw/llm-wiki.md 源文档总结，介绍LLM Wiki Pattern核心理念
 
 ## Entity
 
@@ -16,4 +16,5 @@ A catalog of all pages in this wiki, organized by category.
 
 ## Concepts
 
-<!-- Concept pages go here -->
+- [llm-wiki-pattern.md](concept/llm-wiki-pattern.md) - LLM Wiki Pattern概念介绍，三层架构和核心操作
+- [rag-comparison.md](concept/rag-comparison.md) - RAG与Wiki Pattern的对比分析
