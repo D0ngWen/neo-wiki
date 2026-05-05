@@ -66,7 +66,7 @@ You own the `wiki/` directory entirely.
 #### 2.3.1 Filenames
 
 - Use lowercase with hyphens: `machine-learning.md`
-- Summary pages: 
+- Summary pages:
 - Entity pages: proper nouns
 - Concept pages: general terms
 
@@ -95,14 +95,15 @@ Todo type: source|comparison|synthesis
 - Use standard Markdown links only, NOT Obsidian-style `[[link]]`
 - Mark contradictions with > blockquotes
 - Language: 
-    - English: index.md, log.md, AGENTS.md, frontmatter
-    - Chinese: other pages under wiki/ directory
+  - English: index.md, log.md, AGENTS.md, frontmatter
+  - Chinese: other pages under wiki/ directory
 
 ### 2.4 Git
 
 #### 2.4.1 Git Commit Message Format
 
 **Format:**
+
 ```
 [{operation}] {description}
 
@@ -113,6 +114,7 @@ Human Reviewer: {name}
 ```
 
 **Description:**
+
 - `{operation}`: operation type (ingest|answer|lint|update|init)
   - `ingest`: add new source
   - `answer`: answer query and record
@@ -122,12 +124,14 @@ Human Reviewer: {name}
 - `{description}`: brief description
 
 **Examples:**
+
 - `[ingest] raw/20230101.md`
 - `[query] what-is-machine-learning`
 - `[lint] check for contradictions`
 - `[update] AGENTS.md - add commit format`
 
 **Full Commit Example:**
+
 ```
 [ingest] raw/20230101.md
 
@@ -162,7 +166,8 @@ When human adds a file to `raw/`:
 6. Add cross-references
 7. Ask human to review your changes
 8. When human approves, append an entry to `wiki/log.md` and git commit all changes under this repo with human approver's name
-  * Before the write operation, agent must query the status of the workflow and identify with the human reviewer
+
+- Before the write operation, agent must query the status of the workflow and identify with the human reviewer
 
 #### 2.5.2 Answer a Query
 
@@ -207,3 +212,4 @@ When asked to health-check:
 6. **Cross-references matter** — link pages where relationships exist
 7. **Flag contradictions explicitly** — if sources disagree, note it
 8. **Good answers belong in the wiki** — offer to file valuable answers back
+
