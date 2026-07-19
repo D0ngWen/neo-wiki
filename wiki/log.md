@@ -6,6 +6,15 @@ Format: `## [YYYY-MM-DD] operation | description`
 
 ---
 
+## [2026-07-19] update | 补充提交：raw/自动化漏洞挖掘：过去、现在与未来——AI 的上限在哪里？.md
+
+- 添加遗漏的原始文件到 git 版本控制
+
+LLM Agent: Trae Agent
+Human Reviewer: Neo
+
+---
+
 ## [2026-05-08] ingest | raw/自动化漏洞挖掘：过去、现在与未来——AI 的上限在哪里？.md
 
 - Created wiki/summary/ai-vuln-discovery-evolution.md - 自动化漏洞挖掘三次范式跃迁总结
